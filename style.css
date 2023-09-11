@@ -10,17 +10,20 @@
     background: rgb(0,83,136);
     background: linear-gradient(135deg, rgba(0,83,136,1) 0%, rgba(169,246,255,1) 100%);
     padding: 10px;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .calculator{
     width: 100%;
     max-width: 600px;
-    margin-left: 10%;
-    margin-top: 10%;
+    margin: auto;
 }
 .calculator h1{
     font-size: 50px;
     color: #fff;
+    display: flex;
+    justify-content: center;
 }
 .calculator span{
     color: rgba(255, 251, 2, 0.93);
@@ -31,7 +34,7 @@
     border-radius: 10px;
     background: rgba(255, 255, 255, 0.3);
     display: flex;
-    align-items: center;
+
 }
 .input-box input{
     flex: 1;
